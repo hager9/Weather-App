@@ -138,6 +138,7 @@ searchInput.addEventListener("blur", function () {
 })
 
 searchInput.addEventListener("keyup", function (e) {
+  console.log(e.code)
   if (e.code == "Enter") {
     getWeather(searchInput.value);
   }
