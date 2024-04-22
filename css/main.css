@@ -209,6 +209,11 @@ section.forecast {
   flex-direction: column-reverse;
 }
 
+.card .card-data .right-column li:nth-child(3){
+  font-weight: 600;
+  padding-bottom: 7px;
+}
+
 .card .card-data ul li {
   font-size: 15px;
 }

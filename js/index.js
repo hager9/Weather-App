@@ -64,6 +64,7 @@ function displayWeather(data) {
           <ul class="right-column">
             <li>Sunrise: <span class="sunrise">${day.astro.sunrise}</span></li>
             <li>Sunset: <span class="sunset">${day.astro.sunset}</span></li>
+            <li>${day.day.condition.text}</li>
           </ul>
         </div>
       </div>
