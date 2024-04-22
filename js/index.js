@@ -51,7 +51,7 @@ function displayWeather(data) {
           <div class="time">${date.getHours() > 12 ? date.getHours() - 12 : date.getHours()}:${date.getMinutes()} ${date.getHours() > 11 ? "Pm" : "Am"}</div>
         </div>
         <div class="card-body">
-          <img src= "./images/conditions/${day.day.condition.text}.svg" />
+          <img src= "${day.day.condition.icon}" />
           <div class="degree">${day.hour[date.getHours()].temp_c}°C</div>
         </div>
         <div class="card-data">
