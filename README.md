@@ -28,4 +28,10 @@ This Weather Application provides real-time weather information for locations wo
 2- Navigate to the project directory and open the index.html file in your browser to view the app.
 
 ## Screenshots
+![Home Page](https://github.com/hager9/Weather-App/blob/main/Screenshot%202024-10-10%20024618.png)
 
+
+<br>
+<br>
+
+![Home Page](https://github.com/hager9/Weather-App/blob/main/Screenshot%202024-10-10%20024658.png)
